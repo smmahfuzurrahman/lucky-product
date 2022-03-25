@@ -1,0 +1,62 @@
+[
+  {
+    "id": "01",
+    "name": "Acer Delta-15-a5efk",
+    "price": 900,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/delta-15-a5efk/delta-15-a5efk-03-500x500.jpg"
+  },
+  {
+    "id": "02",
+    "name": "Avita Essential-14",
+    "price": 631,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/avita/essential-14/essential-14-01-500x500.jpg"
+  },
+  {
+    "id": "03",
+    "name": "HP-Laptop 15s-du1115tu",
+    "price": 890,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1115tu/15s-du1115tu-05-500x500.jpg"
+  },
+  {
+    "id": "04",
+    "name": "Lenovo ip slim",
+    "price": 750,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ip-slim/ip-slim-15-2-500x500.jpg"
+  },
+  {
+    "id": "05",
+    "name": "Asus Vivo Book-15",
+    "price": 600,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15/vivobook-15-30-500x500.jpg"
+  },
+  {
+    "id": "06",
+    "name": "Razer Book-13",
+    "price": 1500,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/book-13/book-13-500x500.jpg"
+  },
+  {
+    "id": "07",
+    "name": "Acer Predator Helios 300 ph315",
+    "price": 759,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/acer/predator-helios-300-ph315/predator-helios-300-ph315-01-500x500.jpg"
+  },
+  {
+    "id": "08",
+    "name": "Dell 14-3405",
+    "price": 655,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/14-3405/14-3405-5-500x500.jpg"
+  },
+  {
+    "id": "09",
+    "name": "Dell 14-3400",
+    "price": 800,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/14-3400/vostro-14-3400-black-front-500x500.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Dell Inspiron-15-5515",
+    "price": 900,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-5515/inspiron-15-5515-2-500x500.jpg"
+  }
+]
