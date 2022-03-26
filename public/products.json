@@ -58,5 +58,17 @@
     "name": "Dell Inspiron-15-5515",
     "price": 900,
     "img": "https://www.startech.com.bd/image/cache/catalog/laptop/dell/inspiron-15-5515/inspiron-15-5515-2-500x500.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Huawei Huawei Matebook-13",
+    "price": 900,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/huawei/huawei-matebook-13/huawei-matebook-13-1-500x500.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Lenovo Legion-y740",
+    "price": 900,
+    "img": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/Legion-y740/y740-500x500.jpg"
   }
 ]
