@@ -12,6 +12,7 @@
     margin-top: 5px;
     margin-left: 10px;
     margin-bottom: 10px;
+    box-shadow: 2px 2px 2px 2px whitesmoke;
 }
 .product-name{
     font-size: 20px;
@@ -42,7 +43,7 @@
         border-radius: 8px;
         position: relative;
         margin-top: 5px;
-        margin-left: 10px;
+        margin-left: 5px;
         margin-bottom: 10px;
     }
   }

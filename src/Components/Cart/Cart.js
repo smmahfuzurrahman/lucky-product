@@ -1,19 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import'./Cart.css'
-const Cart = ({cart}) => {
+const Cart = ({cart,removeCart }) => {
     let cartName = [];
-    const choose = () => {
-        console.log('Clicked');
-    }
-    console.log(choose);
+
+    // const [ran , setran] = useState([]);
+
     for (const product of cart){
         if (cartName.length >= 4){
-            
         }
         else{
             cartName.push(product.name) 
         }
-        console.log(cartName);
     }
     return (
         <div className='cart'>
@@ -27,10 +24,10 @@ const Cart = ({cart}) => {
                     );
                 })
             }
-            <div>
-                <button onClick={choose()}>CHOOSE 1 FOR ME</button> <br /> 
-                <button>CHOOSE AGAIN</button>
-            </div>
+          
+            <button className='button-1'>CHOOSE 1 FOR ME</button> <br /> 
+            <button onClick={()=> removeCart()} className='button-2'>CHOOSE AGAIN</button>
+            
         </div>
     
     );
