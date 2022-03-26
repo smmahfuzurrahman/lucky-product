@@ -1,0 +1,13 @@
+.answer{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+  }
+  @media only screen and (max-width: 600px) {
+    .answer{
+        margin-left: 05px;
+        margin-right: 05px;
+        margin-bottom: 0px;
+        text-align: justify;
+      }
+  }
