@@ -13,19 +13,19 @@ const Shop = () => {
         .then(data => setProducts(data));
     },[])
 
-    const handleAddToCart = (product) => {
+    const handleAddToCart = (product,i) => {
         const newCart = [...cart, product];
         setCart(newCart);
     }
-    const removeCart = () => {
+    const removeCart = (setran) => {
         setCart([]);
-        cart([]);
+        setran([]);
     }
     return (
         <div className='shop-container'>
             <div className="products-container">
             {
-                products.map(product=> <Product
+                products.map((product)=> <Product
                 key={product.id}
                 product={product}
                 handleAddToCart={handleAddToCart}
