@@ -29,6 +29,14 @@
     position: absolute;
     bottom: 0;
 }
+.shopping-cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping-cart p{
+    margin-right: 10px;
+}
 
 @media only screen and (max-width: 600px) {
     .product img{
