@@ -22,7 +22,7 @@ const Cart = ({cart}) => {
                 cartName.map((cart) => {
                     return(
                         <div>
-                            <p>{cart}</p>
+                            <p> * {cart}</p>
                         </div>
                     );
                 })

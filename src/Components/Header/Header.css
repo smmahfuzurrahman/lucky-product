@@ -17,3 +17,8 @@
 .header a:hover{
     color: orange;
 }
+@media only screen and (max-width: 600px) {
+    .header a{
+        display: none ;
+    }
+}
