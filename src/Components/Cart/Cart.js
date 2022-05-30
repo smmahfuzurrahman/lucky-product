@@ -6,17 +6,16 @@ const Cart = ({cart,removeCart }) => {
     const [ran, setran] = useState([]);
     const randomCart = (cartNames) =>{
         // console.log(cartNames);
-        let radom = Math.floor(Math.random() * (cartNames.length + 0)); 
+        let radom = Math.floor(Math.random() * cartNames.length); 
         setran(cartNames[radom])
         
     }
     for (const product of cart){
-        
-        if(cartName.length >= 4){
-            
+        if(cartName.length < 4){
+            cartName.push(product.name);
         }
         else{
-            cartName.push(product.name) 
+                 
         }
     }
     return (
@@ -27,8 +26,7 @@ const Cart = ({cart,removeCart }) => {
                 cartName.map((cart,i) => {
                     return(
                         <div key={i}>
-                            <p> * {cart}</p>
-                            
+                            <p> * {cart}</p>  
                         </div>
                     );
                 })
