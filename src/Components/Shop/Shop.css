@@ -7,7 +7,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 .cart-container{
-    background-color: turquoise;
+    background-color: rgb(224, 208, 64);
     margin-left: -15px;
     
 }
